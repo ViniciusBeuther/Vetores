@@ -1,0 +1,22 @@
+#FIXACAO06
+#Dado os vetores A=[10,11,12,13,14,15,16,17] e B=[1,2,3,4,5,6,7,8] e mostrar a soma no vetor C
+
+prog fixacao06
+     int vetorA[8], vetorB[8], vetorC[8], i;
+     
+     para(i <- 0; i < 8; i++)
+     {
+      imprima "\nDigite A[", i,"]: ";
+      leia vetorA[i];
+      imprima "\nDigite B[", i,"]: ";
+      leia vetorB[i];
+      vetorC[i] <- vetorA[i]+vetorB[i];
+     }     
+     
+     para(i <- 0; i < 8; i++)
+     {                 
+      imprima "\nVetorA[", i,"] + vetorB[",i,"] = ", vetorC[i];
+     }
+     imprima "\n\n";
+     
+fimprog

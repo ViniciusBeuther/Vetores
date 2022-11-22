@@ -1,0 +1,22 @@
+#FIXACAO03
+#Ler 5 inteiros do teclado e armazenar num vetor. Depois percorrer o vetor mostrando os numeros impares
+
+prog fixacao03
+       int i, numeros[5];
+           
+           para(i <- 0; i < 5; i++)
+           {
+            imprima "\nValor: ";
+            leia numeros[i];
+           }
+           imprima "\nValores impares\n";
+           para(i <- 0; i < 5; i++)
+           {
+            se (numeros[i] % 2 <> 0)
+            {
+            imprima "\n", numeros[i];
+            }
+           }
+           
+           imprima "\n\n";
+fimprog

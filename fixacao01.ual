@@ -1,0 +1,21 @@
+#FIXAÇÃO01
+#Inicializar um vetor de 5 inteiros com o valor zero
+
+prog fixacao1
+     int vetor[5], i;
+     para(i <- 0; i < 5; i++)
+     {
+      imprima "\nDigite um numero: ";
+      leia vetor[i];
+     }
+     
+     para(i <- 0; i < 5; i++)
+     {
+      imprima "\n", vetor[i];
+     }
+     
+     imprima "\n\n";
+
+
+
+fimprog

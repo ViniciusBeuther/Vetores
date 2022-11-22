@@ -1,0 +1,20 @@
+#FIXAÇAO07
+#ler 5 nuemros reais e imprimir em ordem inversa
+prog fixacao07
+
+     int i, ordem[5], inverso[5], aux;
+     
+         para(i <- 0; i < 5; i++)
+         {
+          imprima "\nDigite um valor[",i+1,"]: ";
+          leia ordem[i];
+         }
+         
+         para(i <- 4; i >= 0; i--)
+         {
+          imprima "\nInverso [",i+1,"]: ", ordem[i];
+         }
+         
+         imprima "\n\n";
+
+fimprog

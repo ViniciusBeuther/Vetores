@@ -1,0 +1,18 @@
+#FIXACAO04
+#Inicializar um vetor com valores 2,4,6,8,10. Calcular e imprimir a soma dos valores
+
+prog fixacao04
+       int i, vetor[5];
+       real  soma;
+       soma <- 0.0;
+       para(i <- 0; i < 5; i++)
+       {
+        imprima "\nDigite o valor: ";
+        leia vetor[i];
+        soma <- soma+vetor[i];
+       }
+       
+       imprima "SOMA: ", soma;
+       imprima "\n\n";
+
+fimprog

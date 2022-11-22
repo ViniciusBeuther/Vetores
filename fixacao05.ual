@@ -1,0 +1,20 @@
+#FIXAÇÃO05
+#Ler e armazenar num vetor 5 numeros reais fornecidos pelo usuario e calcular a media dos valores
+
+prog fixacao05
+       int i;
+       real soma, num[5], media;
+       soma <- 0.0;
+       para(i <- 0; i < 5; i++)
+       {
+        imprima "\nDigite o valor: ";
+        leia num[i];
+        soma <- soma+num[i];
+        
+       }
+       media <- soma / 5.0;
+       imprima "\nA media e: ", formatar(media, 2);
+       imprima "\n\n";
+       
+
+fimprog

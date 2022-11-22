@@ -1,0 +1,32 @@
+#ALGORITMO348
+#Criar um algoritmo que armazene nome e duas notas de 5 alunos e imprima uma 
+#listagem contendo nome, as duas notas e a média de cada aluno.
+
+prog algoritmo348
+       int i;
+       string alunos[3];
+       real nota1[3], nota2[3], media[3];
+       
+       para(i<-0; i<3; i++)
+       {
+        imprima "\nNome [", i+1,"]: ";
+        leia alunos[i];
+        imprima "\nNota [", i+1,"]: ";
+        leia nota1[i];
+        imprima "\nNota2 [", i+1,"]: ";
+        leia nota2[i];
+        
+        media[i]<- (nota1[i] + nota2[i])/2;        
+        
+       }
+       
+       para(i <- 0; i < 3; i++)
+       {
+        imprima "\nAluno [", i+1,"]: ", alunos[i];
+        imprima "\nMedia aluno [", i+1,"]: ", media[i];
+        imprima "\n";
+       }
+       
+       imprima "\n\n";
+
+fimprog

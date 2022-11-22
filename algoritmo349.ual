@@ -1,0 +1,26 @@
+#ALGORITMO349
+#m algoritmo que armazene números em dois vetores inteiros de cinco elementos cada. 
+#Gere e imprima o vetor soma. 
+
+prog algoritmo349
+       int i, a[5], b[5], soma[5];
+       
+       para(i<-0; i<5; i++)
+       {
+            imprima "\nDigite o numero [", i+1,"] do vetor a: ";
+            leia a[i];
+            
+            imprima "\nDigite o numero [", i+1,"] do vetor b: ";
+            leia b[i];
+            
+            soma[i] <- a[i] + b[i];
+       }
+       imprima "\n\n";
+       imprima "RESULTADOS-------------------------\n";
+       para(i <- 0; i < 5; i++)
+       {
+              imprima "\nVetor da soma de a[", i+1,"] + b[",i+1,"]: ", soma[i];
+              imprima "\n";
+       }
+       imprima "\n\n";
+fimprog
